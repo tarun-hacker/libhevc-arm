@@ -1,0 +1,4 @@
+/home/tarun/Work/libhevc/build/CMakeFiles/rebuild_cache.dir
+/home/tarun/Work/libhevc/build/CMakeFiles/edit_cache.dir
+/home/tarun/Work/libhevc/build/CMakeFiles/hevcdec.dir
+/home/tarun/Work/libhevc/build/CMakeFiles/libhevcdec.dir

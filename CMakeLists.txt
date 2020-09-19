@@ -1,3 +1,5 @@
+enable_language(C ASM)
+
 cmake_minimum_required(VERSION 3.5)
 
 set(HEVC_ROOT "${CMAKE_CURRENT_SOURCE_DIR}")
@@ -89,38 +91,91 @@ list(APPEND LIBHEVCDEC_SRCS
 
 list(
   APPEND LIBHEVCDEC_X86_SRCS
-         "${HEVC_ROOT}/decoder/x86/ihevcd_function_selector.c"
-         "${HEVC_ROOT}/decoder/x86/ihevcd_function_selector_generic.c"
-         "${HEVC_ROOT}/decoder/x86/ihevcd_function_selector_ssse3.c"
-         "${HEVC_ROOT}/decoder/x86/ihevcd_function_selector_sse42.c"
-         "${HEVC_ROOT}/common/x86/ihevc_inter_pred_filters_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_weighted_pred_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_intra_pred_filters_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_chroma_intra_pred_filters_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_itrans_recon_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_itrans_recon_16x16_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_itrans_recon_32x32_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_sao_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_deblk_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_padding_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_mem_fns_ssse3_intr.c"
-         "${HEVC_ROOT}/decoder/x86/ihevcd_fmt_conv_ssse3_intr.c"
-         "${HEVC_ROOT}/decoder/x86/ihevcd_it_rec_dc_ssse3_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_inter_pred_filters_sse42_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_weighted_pred_sse42_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_intra_pred_filters_sse42_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_chroma_intra_pred_filters_sse42_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_itrans_recon_sse42_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_16x16_itrans_recon_sse42_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_32x32_itrans_recon_sse42_intr.c"
-         "${HEVC_ROOT}/decoder/x86/ihevcd_it_rec_dc_sse42_intr.c"
-         "${HEVC_ROOT}/common/x86/ihevc_tables_x86_intr.c")
+         "${HEVC_ROOT}/decoder/arm/ihevcd_fmt_conv_420sp_to_420p.s"
+         "${HEVC_ROOT}/decoder/arm/ihevcd_fmt_conv_420sp_to_420sp.s"
+         "${HEVC_ROOT}/decoder/arm/ihevcd_fmt_conv_420sp_to_rgba8888.s"
+         "${HEVC_ROOT}/decoder/arm/ihevcd_function_selector_a9q.c"
+         "${HEVC_ROOT}/decoder/arm/ihevcd_function_selector.c"
+         "${HEVC_ROOT}/decoder/arm/ihevcd_function_selector_noneon.c"
+         "${HEVC_ROOT}/decoder/arm/ihevcd_itrans_recon_dc_chroma.s"
+         "${HEVC_ROOT}/decoder/arm/ihevcd_itrans_recon_dc_luma.s"
+         "${HEVC_ROOT}/common/arm/ihevc_cmn_utils_neon.h"
+         "${HEVC_ROOT}/common/arm/ihevc_deblk_chroma_horz.s"
+         "${HEVC_ROOT}/common/arm/ihevc_deblk_chroma_vert.s"
+         "${HEVC_ROOT}/common/arm/ihevc_deblk_luma_horz.s"
+         "${HEVC_ROOT}/common/arm/ihevc_deblk_luma_vert.s"
+         "${HEVC_ROOT}/common/arm/ihevc_func_selector.h"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_chroma_copy.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_chroma_copy_w16out.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_chroma_horz.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_chroma_horz_w16out.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_chroma_vert.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_chroma_vert_w16inp.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_chroma_vert_w16inp_w16out.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_chroma_vert_w16out.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_filters_luma_horz.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_filters_luma_vert.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_filters_luma_vert_w16inp.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_luma_copy.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_luma_copy_w16out.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_luma_horz_w16out.s"
+         "${HEVC_ROOT}/common/arm/ihevc_inter_pred_luma_vert_w16inp_w16out.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_chroma_dc.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_chroma_horz.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_chroma_mode_18_34.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_chroma_mode_27_to_33.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_chroma_mode2.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_chroma_mode_3_to_9.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_chroma_planar.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_chroma_ver.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_filters_chroma_mode_11_to_17.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_filters_chroma_mode_19_to_25.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_filters_luma_mode_11_to_17.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_filters_luma_mode_19_to_25.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_filters_neon_intr.c"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_luma_dc.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_luma_horz.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_luma_mode_18_34.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_luma_mode_27_to_33.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_luma_mode2.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_luma_mode_3_to_9.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_luma_planar.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_pred_luma_vert.s"
+         "${HEVC_ROOT}/common/arm/ihevc_intra_ref_substitution_a9q.c"
+         "${HEVC_ROOT}/common/arm/ihevc_itrans_recon_16x16.s"
+         "${HEVC_ROOT}/common/arm/ihevc_itrans_recon_32x32.s"
+         "${HEVC_ROOT}/common/arm/ihevc_itrans_recon_4x4.s"
+         "${HEVC_ROOT}/common/arm/ihevc_itrans_recon_4x4_ttype1.s"
+         "${HEVC_ROOT}/common/arm/ihevc_itrans_recon_8x8.s"
+         "${HEVC_ROOT}/common/arm/ihevc_mem_fns.s"
+         "${HEVC_ROOT}/common/arm/ihevc_padding.s"
+         "${HEVC_ROOT}/common/arm/ihevc_platform_macros.h"
+         "${HEVC_ROOT}/common/arm/ihevc_quant_iquant_ssd_neon_intr.c"
+         "${HEVC_ROOT}/common/arm/ihevc_resi_trans_32x32_a9q.s"
+         "${HEVC_ROOT}/common/arm/ihevc_resi_trans_neon_32x32.c"
+         "${HEVC_ROOT}/common/arm/ihevc_resi_trans_neon.c"
+         "${HEVC_ROOT}/common/arm/ihevc_resi_trans.s"
+         "${HEVC_ROOT}/common/arm/ihevc_sao_band_offset_chroma.s"
+         "${HEVC_ROOT}/common/arm/ihevc_sao_band_offset_luma.s"
+         "${HEVC_ROOT}/common/arm/ihevc_sao_edge_offset_class0_chroma.s"
+         "${HEVC_ROOT}/common/arm/ihevc_sao_edge_offset_class0.s"
+         "${HEVC_ROOT}/common/arm/ihevc_sao_edge_offset_class1_chroma.s"
+         "${HEVC_ROOT}/common/arm/ihevc_sao_edge_offset_class1.s"
+         "${HEVC_ROOT}/common/arm/ihevc_sao_edge_offset_class2_chroma.s"
+         "${HEVC_ROOT}/common/arm/ihevc_sao_edge_offset_class2.s"
+         "${HEVC_ROOT}/common/arm/ihevc_sao_edge_offset_class3_chroma.s"
+         "${HEVC_ROOT}/common/arm/ihevc_sao_edge_offset_class3.s"
+         "${HEVC_ROOT}/common/arm/ihevc_weighted_pred_bi_default.s"
+         "${HEVC_ROOT}/common/arm/ihevc_weighted_pred_bi.s"
+         "${HEVC_ROOT}/common/arm/ihevc_weighted_pred_neon_intr.c"
+         "${HEVC_ROOT}/common/arm/ihevc_weighted_pred_uni.s"
+        )
+
 
 set(LIBHEVCDEC_INCLUDES ${HEVC_ROOT}/common ${HEVC_ROOT}/decoder)
 
-set(LIBHEVCDEC_X86_C_FLAGS "-DX86 -DDISABLE_AVX2 -msse4.2 -mno-avx \
-  -DDEFAULT_ARCH=D_ARCH_X86_SSE42 -DMULTICORE")
-set(LIBHEVCDEC_X86_INCLUDES ${HEVC_ROOT}/common/x86 ${HEVC_ROOT}/decoder/x86)
+set(LIBHEVCDEC_X86_C_FLAGS "-DARM")
+set(LIBHEVCDEC_X86_INCLUDES ${HEVC_ROOT}/common/arm ${HEVC_ROOT}/decoder/arm)
 set(LIBHEVCDEC_C_FLAGS "${LIBHEVCDEC_X86_C_FLAGS}")
 
 include_directories(${LIBHEVCDEC_INCLUDES} ${LIBHEVCDEC_X86_INCLUDES})
@@ -130,7 +185,7 @@ set_target_properties(libhevcdec
 
 list(APPEND HEVCDEC_SRCS "${HEVC_ROOT}/test/decoder/main.c")
 
-add_executable(hevcdec ${HEVCDEC_SRCS})
+add_executable(hevcdec ${HEVCDEC_SRCS} ${LIBHEVCDEC_X86_SRCS})
 set_target_properties(hevcdec PROPERTIES COMPILE_FLAGS "-DMD5_DISABLE \
   -DPROFILE_ENABLE")
 target_link_libraries(hevcdec libhevcdec Threads::Threads)

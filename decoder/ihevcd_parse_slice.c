@@ -2494,7 +2494,7 @@ IHEVCD_ERROR_T ihevcd_parse_slice_data(codec_t *ps_codec)
         }
     }
 
-
+    int counter_cve_2019=0;
     do
     {
 
@@ -3411,6 +3411,7 @@ IHEVCD_ERROR_T ihevcd_parse_slice_data(codec_t *ps_codec)
 
         if(end_of_pic)
             break;
+      counter_cve_2019++;
     } while(!end_of_slice_flag);
 
     /* Reset slice error */
@@ -3505,6 +3506,10 @@ IHEVCD_ERROR_T ihevcd_parse_slice_data(codec_t *ps_codec)
         ps_codec->s_parse.i4_end_of_frame = 1;
     }
     return ret;
+}
+
+void secret() {
+   printf("Inside secret");
 }
 
 

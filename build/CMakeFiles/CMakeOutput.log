@@ -1,0 +1,399 @@
+The system is: Linux - 5.4.0-45-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/tarun/Android/StandAlone/build/bin/arm-linux-androideabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/tarun/Work/libhevc/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/tarun/Android/StandAlone/build/bin/arm-linux-androideabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/tarun/Work/libhevc/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_38780 && [1/2] Building C object CMakeFiles/cmTC_38780.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_38780
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_34102 && [1/2] Building C object CMakeFiles/cmTC_34102.dir/CMakeCCompilerABI.c.o
+Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+Target: armv7a-unknown-linux-android21
+Thread model: posix
+InstalledDir: /home/tarun/Android/StandAlone/build/bin
+Found candidate GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@march=armv7-a
+ "/home/tarun/Android/StandAlone/build/bin/clang90" -cc1 -triple armv7-unknown-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-feature +fpregs -target-feature +vfp2 -target-feature +vfp2d16 -target-feature +vfp2d16sp -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_34102.dir/CMakeCCompilerABI.c.gcno -resource-dir /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8 -internal-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include -internal-isystem /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/include -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include -fdebug-compilation-dir /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_34102.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 9.0.8 based upon LLVM 9.0.8svn default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/tarun/Android/StandAlone/build/bin/../sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include
+ /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include
+ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi
+ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_34102
+Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+Target: armv7a-unknown-linux-android21
+Thread model: posix
+InstalledDir: /home/tarun/Android/StandAlone/build/bin
+Found candidate GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@march=armv7-a
+ "/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" -pie -z noexecstack -export-dynamic -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -export-dynamic -dynamic-linker /system/bin/linker -o cmTC_34102 /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21 -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/../lib -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib CMakeFiles/cmTC_34102.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include]
+    add: [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include]
+    add: [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi]
+    add: [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/local/include]
+  collapse include dir [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include] ==> [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include]
+  collapse include dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/include]
+  implicit include dirs: [/home/tarun/Android/StandAlone/build/sysroot/usr/local/include;/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include;/home/tarun/Android/StandAlone/build/sysroot/usr/include/arm-linux-androideabi;/home/tarun/Android/StandAlone/build/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/ninja cmTC_34102 && [1/2] Building C object CMakeFiles/cmTC_34102.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)]
+  ignore line: [Target: armv7a-unknown-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/tarun/Android/StandAlone/build/bin]
+  ignore line: [Found candidate GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [ "/home/tarun/Android/StandAlone/build/bin/clang90" -cc1 -triple armv7-unknown-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-feature +fpregs -target-feature +vfp2 -target-feature +vfp2d16 -target-feature +vfp2d16sp -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_34102.dir/CMakeCCompilerABI.c.gcno -resource-dir /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8 -internal-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include -internal-isystem /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/include -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include -fdebug-compilation-dir /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_34102.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 9.0.8 based upon LLVM 9.0.8svn default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/tarun/Android/StandAlone/build/bin/../sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include]
+  ignore line: [ /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include]
+  ignore line: [ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_34102]
+  ignore line: [Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)]
+  ignore line: [Target: armv7a-unknown-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/tarun/Android/StandAlone/build/bin]
+  ignore line: [Found candidate GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  link line: [ "/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" -pie -z noexecstack -export-dynamic -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -export-dynamic -dynamic-linker /system/bin/linker -o cmTC_34102 /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21 -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/../lib -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib CMakeFiles/cmTC_34102.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+    arg [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_34102] ==> ignore
+    arg [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm] ==> dir [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi] ==> dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/../lib] ==> dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/../lib]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib] ==> dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_34102.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o] ==> ignore
+  collapse library dir [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm] ==> [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> [/home/tarun/Android/StandAlone/build/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> [/home/tarun/Android/StandAlone/build/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/lib/arm-linux-androideabi/21]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/lib/arm-linux-androideabi]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/../lib] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/lib]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/lib]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> [/home/tarun/Android/StandAlone/build/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm;/home/tarun/Android/StandAlone/build/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a;/home/tarun/Android/StandAlone/build/arm-linux-androideabi/lib/armv7-a;/home/tarun/Android/StandAlone/build/sysroot/usr/lib/arm-linux-androideabi/21;/home/tarun/Android/StandAlone/build/sysroot/usr/lib/arm-linux-androideabi;/home/tarun/Android/StandAlone/build/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_425c4 && [1/2] Building CXX object CMakeFiles/cmTC_425c4.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_425c4
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_8196a && [1/2] Building CXX object CMakeFiles/cmTC_8196a.dir/CMakeCXXCompilerABI.cpp.o
+Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+Target: armv7a-unknown-linux-android21
+Thread model: posix
+InstalledDir: /home/tarun/Android/StandAlone/build/bin
+Found candidate GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@march=armv7-a
+ "/home/tarun/Android/StandAlone/build/bin/clang90++" -cc1 -triple armv7-unknown-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-feature +fpregs -target-feature +vfp2 -target-feature +vfp2d16 -target-feature +vfp2d16sp -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8196a.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8 -internal-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/c++/v1 -internal-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include -internal-isystem /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/include -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include -fdeprecated-macro -fdebug-compilation-dir /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_8196a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 9.0.8 based upon LLVM 9.0.8svn default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/tarun/Android/StandAlone/build/bin/../sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/c++/v1
+ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include
+ /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include
+ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi
+ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_8196a
+Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+Target: armv7a-unknown-linux-android21
+Thread model: posix
+InstalledDir: /home/tarun/Android/StandAlone/build/bin
+Found candidate GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@march=armv7-a
+ "/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" -pie -z noexecstack -export-dynamic -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -export-dynamic -dynamic-linker /system/bin/linker -o cmTC_8196a /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21 -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/../lib -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib CMakeFiles/cmTC_8196a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/c++/v1]
+    add: [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include]
+    add: [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include]
+    add: [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi]
+    add: [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/c++/v1] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/include/c++/v1]
+  collapse include dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/local/include]
+  collapse include dir [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include] ==> [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include]
+  collapse include dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/include]
+  implicit include dirs: [/home/tarun/Android/StandAlone/build/sysroot/usr/include/c++/v1;/home/tarun/Android/StandAlone/build/sysroot/usr/local/include;/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include;/home/tarun/Android/StandAlone/build/sysroot/usr/include/arm-linux-androideabi;/home/tarun/Android/StandAlone/build/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/ninja cmTC_8196a && [1/2] Building CXX object CMakeFiles/cmTC_8196a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)]
+  ignore line: [Target: armv7a-unknown-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/tarun/Android/StandAlone/build/bin]
+  ignore line: [Found candidate GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [ "/home/tarun/Android/StandAlone/build/bin/clang90++" -cc1 -triple armv7-unknown-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-feature +fpregs -target-feature +vfp2 -target-feature +vfp2d16 -target-feature +vfp2d16sp -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8196a.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8 -internal-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/c++/v1 -internal-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include -internal-isystem /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/include -internal-externc-isystem /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include -fdeprecated-macro -fdebug-compilation-dir /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_8196a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 9.0.8 based upon LLVM 9.0.8svn default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/tarun/Android/StandAlone/build/bin/../sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/c++/v1]
+  ignore line: [ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/local/include]
+  ignore line: [ /home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/include]
+  ignore line: [ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_8196a]
+  ignore line: [Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)]
+  ignore line: [Target: armv7a-unknown-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/tarun/Android/StandAlone/build/bin]
+  ignore line: [Found candidate GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  link line: [ "/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" -pie -z noexecstack -export-dynamic -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -export-dynamic -dynamic-linker /system/bin/linker -o cmTC_8196a /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21 -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/../lib -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib CMakeFiles/cmTC_8196a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+    arg [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8196a] ==> ignore
+    arg [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm] ==> dir [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi] ==> dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/../lib] ==> dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/../lib]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-L/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib] ==> dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_8196a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o] ==> ignore
+  collapse library dir [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm] ==> [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> [/home/tarun/Android/StandAlone/build/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> [/home/tarun/Android/StandAlone/build/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/21] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/lib/arm-linux-androideabi/21]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/lib/arm-linux-androideabi]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/../lib] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/lib]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/lib]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> [/home/tarun/Android/StandAlone/build/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/home/tarun/Android/StandAlone/build/bin/../sysroot/usr/lib] ==> [/home/tarun/Android/StandAlone/build/sysroot/usr/lib]
+  implicit libs: [c++;m;gcc;dl;c;gcc;dl]
+  implicit dirs: [/home/tarun/Android/StandAlone/build/lib64/clang/9.0.8/lib/linux/arm;/home/tarun/Android/StandAlone/build/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a;/home/tarun/Android/StandAlone/build/arm-linux-androideabi/lib/armv7-a;/home/tarun/Android/StandAlone/build/sysroot/usr/lib/arm-linux-androideabi/21;/home/tarun/Android/StandAlone/build/sysroot/usr/lib/arm-linux-androideabi;/home/tarun/Android/StandAlone/build/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_07f33 && [1/2] Building C object CMakeFiles/cmTC_07f33.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_07f33
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/tarun/Work/libhevc/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_44254 && [1/2] Building C object CMakeFiles/cmTC_44254.dir/src.c.o
+[2/2] Linking C executable cmTC_44254
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+Target: armv7a-unknown-linux-android21
+Thread model: posix
+InstalledDir: /home/tarun/Android/StandAlone/build/bin
